@@ -42,11 +42,11 @@
             <li><a href=""></a></li>
         </ul>
         
-    </div>
+      </div>
  
  </div>
   
- <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
  
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,78 +70,108 @@
       
       <ul class="nav navbar-nav navbar-right">
       <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>   
-      <li class="active">
-          <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown">Blog</a> 
+      <li class="dropdown-submenu">
+          <a href="aboutus.html" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+                      <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                        <a href="#">Where we Work</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Tadiwala Road</a></li>
+                          <li><a href="#">Ramtekadi</a></li>
+                           <li><a href="#">Bibvewadi</a></li>
+                        </ul> 
+                      </li>
+                      <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                      <a href="#">Our Partners</a>
+                       <ul class="dropdown-menu">
+                          <li><a href="#">Our Corporate Partner</a></li>
+                          <li><a href="#">Our Collaborative Partner</a></li>
+                           <li><a href="#">Friends of Deep Griha</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Our Partners</a></li>
+          </ul> 
       </li>
       <li class="dropdown-submenu">
         <a href="Programmes.html" class="dropdown-toggle" data-toggle="dropdown">Programmes <b class="caret"></b></a>
          <ul class="dropdown-menu">
-                  <li><a tabindex="-1" href="#">Second level</a></li>
+             
                   <li class="dropdown-submenu dropdown-submenuX submenu_left">
-                    <a href="#">Even More..</a>
+                    <a href="#">Childcare</a>
                     <ul class="dropdown-menu">
-                      <li><a href="#">3rd level</a></li>
-                      <li><a href="#">3rd level</a></li>
+                      <li><a href="#">Creches</a></li>
+                      <li><a href="#">Special Nutrition Centre</a></li>
                     </ul>  
-                  </li>  
+                  </li> 
+                  <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                    <a href="#">Child Development</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Aadhar Kendar</a></li>
+                      <li><a href="#">City of Child</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                    <a tabindex="-1" href="#">HIV & AIDS</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">DIYA Youth Resource & Activity Centre</a></li>
+                      <li><a href="#">DGS Smart Mahindra Vocational Training Centre</a></li>
+                      <li><a href="#">Girl Child Programme</a></li>
+                      <li><a href="#">Youth Development Programmes</a></li>
+                    </ul>
+                  </li>
+                  <li><a tabindex="-1" href="#">City if Child</a></li>
+                  <li>
+                  <a tabindex="-1" href="#">Youth Empowerment</a>
+                  </li>
+                  <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                  <a tabindex="-1" href="#">Women's Empowerment</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Adult Education</a></li>
+                      <li><a href="#">Self-Help Groups</a></li>
+                      <li><a href="#">Counseling and Awareness</a></li>
+                      <li><a href="#">Legal Aid</a></li>
+                  </ul>
+                  </li>
+                  <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                  <a tabindex="-1" href="#">Medical & Healthcare</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Tadiwala Road Clinic</a></li>
+                      <li><a href="#">Health & Eye Camp</a></li>
+                      <li><a href="#">Denticare</a></li>
+                  </ul>
+                  </li>
+                  <li><a tabindex="-1" href="#">Second level</a></li> 
           </ul>  
       </li>
-      <li class="dropdown dropdown-large"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a></li>
-      <li class="dropdown dropdown-large">
-       <a href="Programmes.html" class="dropdown-toggle" data-toggle="dropdown">Get involved<b class="caret"></b></a>
-        <ul class="dropdown-menu dropdown-menu-large row">
-                    <div align="center" class="aboutus_center_align">
-                            <p align="center" class="icon"><a href="Programmes.html" class="btn" role="button">Programmes</a></p>
-                   </div>
-            <li class="dropdown-header padding_zero"><a href="childcare.html">Childcare</a></li>
-            <li class="divider"></li>
-            <li><a href="Become-a-Deep-Griha-Ambassador.html">Become a Deep Griha Ambassador </a></li>
-            <li><a href="Donate.html">Donate- Online Giving Centre </a></li>
-            <li><a href="Wishlist.html">Wishlist </a></li>
-            <li><a href="VolunteerwithUs.html">Volunteer With Us </a></li>             
-            <li><a href="CorporateInvolvement.html">Corporate Involvement</a></li>
-          <li class="">
-            <ul>
-              <li class="dropdown-header padding_zero"><a href="childdevelopment">Child Development</a></li>
-              <li class="divider"></li>
-              <li><a href="aadharkendra.html">Aadhar Kendra</a></li>
-              <li><a href="Cityofchild.html">City of Child</a></li>  
-
-
-              
-                            <li class="divider"></li>
-                <li class="dropdown-header padding_zero"><a href="#">Women's Empowerment</a></li>
-                <li class="divider"></li>              
-                <li><a href="AdultEducation.html">Adult Education</a></li>
-                <li><a href="Self-HelpGroup.html">Self-Help Group</a></li>
-                <li><a href="Counselling&Awareness.html">Counselling & Awareness</a></li>
-                <li><a href="LegalAid.html">Legal Aid</a></li>
-
+      <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a></li>
+      <li class="dropdown-submenu">
+            <a href="Programmes.html" class="dropdown-toggle" data-toggle="dropdown">Get involved <b class="caret"></b></a>
+            <ul class="dropdown-menu dropdown-menu-large row">                 
+                <li><a href="Become-a-Deep-Griha-Ambassador.html">Become a Deep Griha Ambassador </a></li>
+                <li class="dropdown-submenu dropdown-submenuX submenu_left">
+                    <a href="Donate.html">Donate</a>
+                    <ul class="dropdown-menu">
+                          <li><a href="#">Online Giving Centre </a></li>
+                    </ul>
+                </li>
+                <li><a href="Wishlist.html">Wishlist </a></li>
+                <li><a href="VolunteerwithUs.html">Volunteer With Us </a></li>             
+                <li><a href="CorporateInvolvement.html">Corporate Involvement</a></li>
+                <li><a href="CorporateInvolvement.html">Community Fundra</a></li>
             </ul>
-          </li>
-         
-        
-          
-
-
-
-
-     </ul>
-
-        </li>
-       
+        </li>    
         <li>
               <a href="shop.html"><span class="glyphicon glyphicon glyphicon-shopping-cart icon_margin" aria-hidden="true"></span>Shop</a>
 
         </li>
 
 
-        <li class="dropdown">
+        <li class="dropdown-submenu">
 
           <a href="Contacts.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact Us <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="shareyourexperience.html">Share your experience</a></li>
-            <li role="separator" class="divider"></li>
+            
             <li><a href="social-networking.html">Social Network</a></li>
           </ul>
           <li><a href="login.html"><span class="glyphicon glyphicon glyphicon glyphicon-log-in icon_margin" aria-hidden="true"></span>Login</a></li>
@@ -164,13 +194,25 @@
         @yield('content')
 
 
-<div class="container-fluid">
+<div class="container-fluid main_footer">
 <div class="row footer">
-  <div class="col-md-3 footer_logo">
+  <div class="container">
+        <div class="col-md-3 footer_logo">
       <img src="footer_logo.jpg" class="img-responsive">
+      <p>
+        
+      </p>
+      
+      <ul class="contact-info">
+                    <li><i class="fa fa-map-marker icon_marginx" aria-hidden="true"></i>Deep Griha Society,<br>Family Welfare Centre, <br>13 Tadiwala Roads,<br> Pune 411 001, Maharashtra, INDIA.</li>
+                    <li><i class="fa fa-envelope-o icon_marginx" aria-hidden="true"></i>Email us: <a href="#">deepgriha@gmail.com</a></li>
+                    <li><i class="fa fa-volume-control-phone icon_marginx" aria-hidden="true"></i>Call us: +91 20 2612 4382 /  +91 20 40187373</li>
+       </ul>
   </div>
   <div class="col-md-3 footer_text">
-    <h3><b>About Us</b></h3><hr>
+    <div class="sect_title">
+      <h4><b>About Us</b></h4>
+    </div>
     <ul>
       <li>
         <a href="#">Where We Work</a>
@@ -187,7 +229,9 @@
     </ul>
   </div>
   <div class="col-md-3 footer_text">
-    <h3><b>Volunteer</b></h3><hr>
+    <div class="sect_title">
+      <h4><b>Volunteer</b></h4>
+    </div>
     <ul>
       <li>
         <a href="#">Volunteer with us</a>
@@ -204,8 +248,10 @@
     </ul>
   </div>
   
-  <div class="col-md-3 footer_text footer_text2">
-    <h3><b>Connect</b></h3><hr>
+   <div class="col-md-3 footer_text2" style="padding-top: 50px;">
+    <div class="sect_title">
+      <h4><b>Connect</b></h4>
+    </div>
      <ul class="social-network social-circle">
         <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
         <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
@@ -213,31 +259,25 @@
         <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
         <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
       </ul><br><br>
-      <div class="row last_footer">
-    <div class=" ">
-         (c) Copyright 2012 - Deep Griha Society<br>
-         Registered under SRA (MAH / 1128 / PN),<br>
-          B.P.T. - F. 988<br><br>
-
     
-        
-            Income Tax Exemption US 80-G, FCRA Reg.<br>
-            No. 083930134
-         
- 
+
+ </div>
+  </div>
+  <button class="scroll-top tran3s color2_bg pull-right" style="display: block;"><span class="fa fa-angle-up"></span></button>
 </div>
-  </div><hr>
-
-</div>
-
-
-
-
-<hr>
-
-
+<div class="row botton_footer">
+   <div class="container">
+     <p class="pull-left"><span class="theme_color">Copyright (c) 2012</span>- Deep Griha Society<br>
+   Registered under SRA (MAH / 1128 / PN),<br>
+          <span class="theme_color">B.P.T. - F. 988</span>
+     </p>
+      <p class="pull-right">
+         Income Tax Exemption US 80-G, FCRA<br> Reg.
+        No. 083930134
+     
+      </p>
    </div>
-
+</div>
 
 
 </div>

@@ -97,7 +97,7 @@
                               <i class="fa fa-child fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>Child Care</h3>
+                                    <h4>Child Care</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -113,7 +113,7 @@
                               <i class="fa fa-hand-rock-o fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>Child Developement</h3>
+                                    <h4>Child Developement</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -127,7 +127,7 @@
                               <i class="fa fa-money fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>IGP(Income generation program)</h3>
+                                    <h4>IGP(Income generation program)</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -143,7 +143,7 @@
                               <i class="fa fa-graduation-cap fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>City of Child</h3>
+                                    <h4>City of Child</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -156,7 +156,7 @@
                                <center>
                               <i class="fa fa-male fa_progs" aria-hidden="true"></i>
                               <div class="caption">
-                                <h3>Youth Empowerment</h3>
+                                <h4>Youth Empowerment</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -170,7 +170,7 @@
                               <i class="fa fa-female fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>Women's Empowerment</h3>
+                                    <h4>Women's Empowerment</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -186,7 +186,7 @@
                               <i class="fa fa-medkit fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>Medical & Healthcare</h3>
+                                    <h4>Medical & Healthcare</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -199,7 +199,7 @@
                                <center>
                               <i class="fa fa-heartbeat fa_progs" aria-hidden="true"></i>
                               <div class="caption">
-                                <h3>DISHA(HIV & AIDS)</h3>
+                                <h4>DISHA(HIV & AIDS)</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -213,7 +213,7 @@
                               <i class="fa fa-cogs fa_progs" aria-hidden="true"></i>
                               <div class="caption">
                                 
-                                    <h3>Vidyanagari</h3>
+                                    <h4>Vidyanagari</h4>
                                 <p>We work to hunger and food insecurity; 
                                      and children’s education.
                                 </p>
@@ -231,14 +231,14 @@
 
    <div class="row">
         <div class="row section1">
-            <div class="col-md-9 About_title section1title">
+            <div class="col-md-9 About_title About_title2 section1title">
                 <h2>
                     <b>Our Wishlist</b>
 
                 </h2>
                     <p>You can help a lot of people by donating little.</p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 section2">
                 <!-- Controls -->
                 <div class="controls pull-right hidden-xs">
                     <a class="left fa fa-chevron-left btn btn-slider" href="#carousel-example"
@@ -261,7 +261,7 @@
             </div>
         </div> 
 
-      <div class="row">
+      <div class="row gridsect">
        <div id="carousel-example" class="carousel slide hidden-xs campaignslider" data-ride="carousel">
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
@@ -1667,13 +1667,16 @@
     <section class="customer-logos slider">
         @foreach($campaignsurgents as $campaignurgent)
 
-      <div class="slide text-center" >
+     <div class="smallslider">
+      
       <img class="imgg" src="{{Storage::url($campaignurgent->photo)}}">
+      <div class="slide text-center smallslidercaption" >
       <i class="fa fa-search-plus" aria-hidden="true"></i>
       <p class="campaignurgentp text-center">
            {{$campaignurgent->title}}
       </p>
       </div>
+     </div>
 
       @endforeach
     </section>
@@ -1753,66 +1756,79 @@
 <div class="container-fluid">
  <div class="row">
 
- <div class="col-md-12 padding_o">
+ <div class="col-md-12 padding_o testiCol">
 
-
-<div id="carousel-example-testimonials" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+<section class="kc-elm kc-css-716614 kc_row">
  
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner carousel-innerx" role="listbox">
-                    
-
-                
-            @foreach ($testimonials as $testimonial) 
-             
+           <section class="testimonials-section" style="background-image: url('http://tonatheme.com/newwp/charity/wp-content/uploads/2017/03/2.jpg');">
+             <div class="container">
+    
+        <!--Slider-->      
+            <div class="testimonial-slider owl-carousel owl-theme owl-loaded">
+                        <!--Slide-->
             
+                        <!--Slide-->
+            
+                        <!--Slide-->
+            
+                <div class="owl-stage-outer">
+                 <div class="owl-stage">
+                 <div class="owl-item slider">
+                  <div class="slide">
+                    <center>
+                    <article class="slide-item center">
+                    <div class="img-box">
+                      <a href="#"><img width="120" height="120" src="http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1.jpg" class="attachment-120x120 size-120x120 wp-post-image" alt="" srcset="http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1.jpg 120w, http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1-70x70.jpg 70w" sizes="(max-width: 120px) 100vw, 120px"></a>
+                    </div>
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                
+                    <div class="slide-text">
+                        <p>Explain to you how all this mistakens idea of denouncing and seds praisings pain was born and I will give you a completed eds expound the workinggreat explorer the master of human happiness.</p><br>
+                    </div>
+                    <div class="author">
+                        <h4>Jenifer Hearly , <span> Newyork City</span></h4>
+                    </div>
+                  </article>
+                 </center>
+                  </div>
+                  <div class="slide">
+                    <center>
+                    <article class="slide-item center">
+                    <div class="img-box">
+                      <a href="#"><img width="120" height="120" src="http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1.jpg" class="attachment-120x120 size-120x120 wp-post-image" alt="" srcset="http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1.jpg 120w, http://tonatheme.com/newwp/charity/wp-content/uploads/2017/04/thumb1-70x70.jpg 70w" sizes="(max-width: 120px) 100vw, 120px"></a>
+                    </div>
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                    </div>
+                
+                    <div class="slide-text">
+                        <p>Explain to you how all this mistakens idea of denouncing and seds praisings pain was born and I will give you a completed eds expound the workinggreat explorer the master of human happiness.</p><br>
+                    </div>
+                    <div class="author">
+                        <h4>Jenifer Hearly , <span> Newyork City</span></h4>
+                    </div>
+                  </article>
+                 </center>
+                  </div>
+                
 
-                                @if ($loop->first)
-                    <div class="active item itemx2">
-                                        <img class="img-responsive itemx2img" src="{{Storage::url($testimonial->photo)}}">
-                                        <div class="carousel-caption captionx">
-                                        <img class="testimonial_prof_pic" src="{{Storage::url($testimonial->photo)}}">
-                                          <p>{{$testimonial->name}}</p>
-                                          <p>{!! $testimonial->body !!}</p>
-                                      
-                                        </div>
-                     </div>
+                 </div>
 
-                                   @else
+               </div>
+               </div>
+               </div>
+               </div>
+         </section>
+       </div>    
 
-                      <div class="item itemx2">
-                                      <img class="img-responsive itemx2img" src="{{Storage::url($testimonial->photo)}}">
-                                      <div class="carousel-caption captionx">
-                                      <img class="testimonial_prof_pic" src="{{Storage::url($testimonial->photo)}}">
-                                      <p>{{$testimonial->name}}</p>
-                                      <p>{!! $testimonial->body !!}</p>   
-                                      </div>
-                      </div>
-                                     @endif
-                                        @endforeach
 
     </div>
-
-      <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-testimonials" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-testimonials" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
- </div>
-
-
-
-                 
-
-
- </div>
- </div>
+    </div>
+    </div>
+   </section>
+  
  </div>
 
 
@@ -1877,10 +1893,10 @@
        <h1>Our Sponsors</h1>
       </div>
      </center>
-     <div class="row">
+     <div class="row sponsorrow">
                       @foreach($sponsors as $sponsor)
 
-             <div class="col-md-3">
+             <div class="col-md-3 sponsorcol">
                  
                  <img src="{{Storage::url($sponsor->photo)}}" class="img-responsive">
                  
@@ -1964,6 +1980,21 @@
     });
   });
 </script>
+<script type="text/javascript">
+  window.onload=function(){
+  $('.owl-item').slick({
+  autoplay:true,
+  autoplaySpeed:1500,
+  arrows:true,
+  prevArrow:'',
+  nextArrow:'',
+  centerMode:true,
+  slidesToShow:1,
+  slidesToScroll:1
+  });
+};
+
+</script>
 
 <script type="text/javascript">
     
@@ -1982,7 +2013,20 @@ $('.fa-chevron-right').on('click', function(){
 
 });
 </script>
-
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.smallslider').hover(
+        function(){
+            $(this).find('.smallslidercaption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.smallslidercaption').slideUp(250); //.fadeOut(205)
+        }
+    ); 
+});
+</script>
 
 
 
